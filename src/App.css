@@ -1,3 +1,30 @@
+.btn-wrapper button {
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+  border: 0px;
+}
+.cart-wrapper{
+  width: 500px;
+  height: 120px;
+  border: 1px solid black;
+  margin-left: 10%;
+}
+.item{
+  float: left;
+  padding: 20px;
+  display: inline-block;
+  width: 120px;
+  height: 70px;
+}
+.add-to-cart img{
+  width: 75px;
+  position: absolute;
+  right: 1%;
+  top: 3%;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +59,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
